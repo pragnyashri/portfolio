@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renewable Energy Portfolio</title>
+    <title>Renewable Energy Portfolio - PRAKHYA PRANUTHY SRI</title>
     <style>
         * {
             margin: 0;
@@ -26,6 +26,29 @@
             overflow: hidden;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             min-height: 90vh;
+        }
+
+        .topbar {
+            width: 100%;
+            background: #fff;
+            padding: 15px 0 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            border-bottom: 3px solid #764ba2;
+        }
+        .topbar img {
+            height: 58px;
+            margin-left: 28px;
+            margin-right: 18px;
+        }
+        .topbar .details {
+            color: #2c3e50;
+            font-size: 19px;
+            letter-spacing: 1px;
+        }
+        .topbar .details strong {
+            color: #764ba2;
         }
         
         .sidebar {
@@ -50,6 +73,13 @@
         .profile p {
             font-size: 14px;
             color: #95a5a6;
+        }
+
+        .profile .user-info {
+            margin-top: 14px;
+            font-size: 15px;
+            color: #fff;
+            letter-spacing: 0.3px;
         }
         
         .nav-menu {
@@ -225,11 +255,25 @@
     </style>
 </head>
 <body>
+    <div class="topbar">
+        <img src="https://i.pinimg.com/originals/98/e6/2f/98e62f850d5c772efb71b80de0c1a6ef.jpg" alt="SRM Logo">
+        <div class="details">
+            <strong>SRM INSTITUTE OF SCIENCE AND TECHNOLOGY</strong> <br>
+            <span>Name:</span> PRAKHYA PRANUTHY SRI &nbsp; | &nbsp;
+            <span>Roll No:</span> RA2311026010046 &nbsp; | &nbsp;
+            <span>Section:</span> AB-1
+        </div>
+    </div>
     <div class="container">
         <aside class="sidebar">
             <div class="profile">
                 <h2>Energy Portfolio</h2>
                 <p>Renewable Energy Systems</p>
+                <div class="user-info">
+                    PRAKHYA PRANUTHY SRI <br>
+                    RA2311026010046 <br>
+                    AB-1 SECTION
+                </div>
             </div>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link active" onclick="showSection('home')">Home</a></li>
